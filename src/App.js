@@ -42,7 +42,7 @@ export default function Fetch() {
             strings={["UASC INTERNSHIP"]}
             typeSpeed={100}
             backSpeed={120}
-            className="bg-transparent text-6xl sm:text-5xl md:text-6xl xl:text-7xl font-tiny5 mt-3 mx-2 mb-4 text-[#F9CE46] overflow-clip"
+            className="bg-transparent text-6xl sm:text-4xl md:text-5xl xl:text-7xl font-tiny5 mt-3 mx-2 mb-4 text-[#F9CE46] overflow-clip"
             loop
           ></ReactTyped>
         </div>
@@ -90,6 +90,11 @@ export default function Fetch() {
             </button>
           ))}
         </div>
+      </div>
+      <div className="flex justify-center mt-10 mb-0 bg-[#0E0E0E]">
+        <p className="text-white text-[10px] sm:text-[8px] md:text-[8px] xl:text-[10px] font-light text-center">
+          Courtesy of Amelia Zakiya Sabrina | 23523099
+        </p>
       </div>
     </div>
   );
